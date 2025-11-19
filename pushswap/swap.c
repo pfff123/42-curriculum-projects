@@ -6,7 +6,7 @@
 /*   By: yafu <yafu@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/18 12:58:30 by yafu              #+#    #+#             */
-/*   Updated: 2025/11/18 13:52:52 by yafu             ###   ########.fr       */
+/*   Updated: 2025/11/19 16:10:09 by yafu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ swap the first two elements
 old_h:old head
 new_h:new head
 */
-static void	swap(t_node **old_h)
+void	swap(t_node **old_h)
 {
 	t_node	*new_h;
 
